@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+CU:wght@100..400&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+*{
+    font-family: "Nunito", system-ui;
+}
+
+.font-playwrite{
+    font-family: "Playwrite CU", system-ui;
+}
+
+.font-playwrite span{
+    font-family: "Playwrite CU", system-ui;
+}

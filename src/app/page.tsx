@@ -1,10 +1,11 @@
-"use client"; 
-import React from 'react';
-import ExamplePage from '@/components/pages/example';
-
+import React from "react";
+import HomePage from "@/components/pages/home";
+import MainLayout from "@/components/layout";
 
 export default function Home() {
   return (
-    <ExamplePage />
+    <MainLayout>
+      <HomePage />
+    </MainLayout>
   );
 }
